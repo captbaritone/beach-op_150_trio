@@ -1,7 +1,9 @@
 \version "2.10.10"
 dolce = \markup{ \italic dolce }
 \header {
+    dedication = ""
     title = "Trio"
+    composer = "Mrs. H.H.A Beach"
     instrument = "Violin"
     opus = "Op. 150"
     tagline = "v0.1 send corrections to jordaneldredge@gmail.com"
@@ -369,13 +371,6 @@ allegroConBrioMelody = \relative c'' {
   <a e' cis'>8\sfz r r4 r2\fermata \bar"|."
 }
 
-
-\header {
-  dedication = ""
-  title = "Trio"
-  instrument = "Violin"
-  composer = "Mrs. H.H.A Beach"
-}
 \score{
   << 
     \new Voice = "one" {
