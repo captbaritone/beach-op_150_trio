@@ -84,9 +84,9 @@ allegroMelody = \relative c'' {
   g4 gis'?\pp ( f ) |
   ais2.\> ( |
   ais ) |
-  \pageBreak
   \mark \default % Rehearsal 3
   R2.*2\! |
+  \pageBreak
   % Page 12
   e4.\pp( fis8 g4~ |
   g ) ais4.\< ( b8 ) |
@@ -247,6 +247,7 @@ allegroConBrioMelody = \relative c'' {
   b1~\mf |
   b2\> des~\p |
   des1\> \bar "||"
+  \pageBreak
   \key des \major 
   \mark \default
   % PAge 34
@@ -256,7 +257,6 @@ allegroConBrioMelody = \relative c'' {
   r4 d ( b aes |
   ges ) r4 r2 |
   r1 |
-  \pageBreak
   R1*3^"Meno mosso" |
   r4\pp des' ( bes f ) |
   R1*3 |
@@ -298,7 +298,6 @@ allegroConBrioMelody = \relative c'' {
   cis1~\pp |
   cis2. r4\fermata \bar "||"
   % Page 37
-  \pageBreak
   R1*2^"Tempo I" |
   e2\pp cis8 ( a4 ) fis8 |
   a4-. fis-. cis'2~ ( |
